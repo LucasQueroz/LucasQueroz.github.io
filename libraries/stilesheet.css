@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 p{
 	text-align: justify;
 	text-indent: 50px;
@@ -27,6 +29,7 @@ figure.imagem-logo img{
 	background-color: #FF7F00;
 	list-style: none;
 	text-transform: uppercase;
+	margin-top: 20px;
 }
 
 #menu ul li {
@@ -49,9 +52,14 @@ figure.imagem-logo img{
 }
 
 /* Formatação do rodapé */
-footer#rodape{
+footer#rodape {
 	clear: both;
 	border-top: 1px solid #606060;
+	text-align: center;
+}
+
+footer#rodape p {
+	text-align: center;
 }
 
 /* Formatação do topo das páginas internas */ 
@@ -71,6 +79,7 @@ table#tabelaportifolio {
 	padding: 10px;
 	margin-top: 50px;
 	margin-bottom: 50px;
+
 }
 
 table#alter tr td{
